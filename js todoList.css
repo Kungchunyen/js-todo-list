@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*  CSS Tools: Reset CSS END */
+
+body{
+  background: pink;
+  font-family: sans-serif, 'Microsoft JhengHei', '微軟正黑體';
+  color: #003e52;
+  font-weight: bold;
+}
+
+.wrap{
+  width: 550px;
+  margin: 0 auto;
+  padding: 100px;
+
+}
+.clearfix:after{
+  content:'';
+  display:table;
+  clear:both;
+}
+.main{
+  background: #FFF;
+  padding: 30px 50px;
+  border-radius: 20px;
+
+}
+.title{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.inText{
+  padding: 8px 12px;
+  border: 3px solid #719ca5;
+  border-radius: 10px;
+  width: 75%;
+  font-size: 20px;
+  color: #003e52;
+  outline: none;
+  text-align: center;
+}
+.addBtn{
+  float: right;
+  padding: 4px 10px;
+  border: 7px solid #BAE3E7;
+  border-radius: 10px;
+  width: 15%;
+  font-size: 16px;
+  background: #BAE3E7;
+  outline: none;
+ }
+.addBtn:hover{
+  border: 7px solid #018091;
+  background: #018091;
+  color: #BAE3E7;
+  cursor: grab;
+}
+.list{
+  margin-top: 20px;
+  list-style-type: circle;
+}
+
+
+.list li{
+  padding: 10px 0px;
+  margin: 0 40px;
+}
+
+.delBtn{
+  float: right;
+  margin-right: 10px;
+  padding-top: 1px;
+  border: 2px solid #719ca5;
+  border-radius: 5px;
+  width: 16%;
+  color: #719ca5;
+  outline: none;
+  background: #fff;
+}
+
+.delBtn:hover{
+  border: 3px solid #018091;
+  color: #018091;
+  cursor: grab;
+  background: #fff;
+}
